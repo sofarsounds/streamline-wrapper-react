@@ -86,6 +86,7 @@ const StreamlineIcon: FunctionComponent<{
         strokeLinecap={icon[3][index]['stroke-linecap']}
         strokeLinejoin={icon[3][index]['stroke-linejoin']}
         strokeWidth={icon[3][index]['stroke-width']}
+        transform={icon[3][index]['transform']}
         key={path}
         d={path}
       />
